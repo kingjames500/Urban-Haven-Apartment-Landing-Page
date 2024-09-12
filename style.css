@@ -20,12 +20,14 @@ html {
   --color-header-nav-list-link: #cab4ab;
   --color-primary:white;
   --color-secondary: #307fff;
+  --color-tertiary:#001125;
 }
 
 body {
   font-size: 1.6rem;
   font-family: "Josefin Sans", sans-serif;
 }
+/*style for header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -35,7 +37,7 @@ body {
 
 .header-logo {
   width: 10%;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 
@@ -60,39 +62,53 @@ nav ol {
   text-transform:.3s;
   color:var(--color-primary) ;
 }
+/* end of header style */
+
+/* style for hero section */
 
 .hero{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 86vh;
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7)), url(./assets/hero-section.jpg);
   background-position: bottom;
   background-size: cover;
-  background: url(./assets/pexels-pixabay-276724.jpg), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 }
 
 .hero-title{
-  color: var(--color-secondary);
-  font-weight: 700;
-  font-size: 6rem;
+  color: var(--color-primary
+  );
+  font-weight: 400;
+  font-size: 4rem;
   text-align: center;
 }
 
 .hero-title-subtext{
   color: var(--color-primary);
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
+  padding: 2rem;
 }
 
 .hero-title-btn{
-  background-color: var(--color-secondary);
-  color: var(--color-primary);
+  background-color: var(--color-header);
+  color: var(--color-tertiary);
   padding: 1rem 2rem;
   border: none;
   border-radius: 5px;
   font-size: 2rem;
   cursor: pointer;
   text-transform: capitalize;
+}
+/* end of hero section style */
+
+/* style for about section */
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
 }
 
 
