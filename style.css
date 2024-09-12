@@ -17,7 +17,9 @@ html {
 }
 :root{
   --color-header: #9485be;
-  --color-heeader-nav-list-link: #cab4ab;
+  --color-header-nav-list-link: #cab4ab;
+  --color-primary:white;
+  --color-secondary: #307fff;
 }
 
 body {
@@ -50,8 +52,51 @@ nav ol {
 }
 .nav-list-link {
   color: var(--color-heeader-nav-list-link);
+  padding-right: 2rem;
   text-decoration: none;
 }
+
+.nav-list-link:hover {
+  text-transform:.3s;
+  color:var(--color-primary) ;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 86vh;
+  background-position: bottom;
+  background-size: cover;
+  background: url(./assets/pexels-pixabay-276724.jpg), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.hero-title{
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.hero-title-subtext{
+  color: var(--color-primary);
+  font-size: 4rem;
+  text-align: center;
+}
+
+.hero-title-btn{
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+
+
 
 
 
