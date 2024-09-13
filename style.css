@@ -19,7 +19,7 @@ html {
   --color-header: #9485be;
   --color-header-nav-list-link: #cab4ab;
   --color-primary:white;
-  --color-secondary: #307fff;
+  --color-secondary: #b1a199;
   --color-tertiary:#001125;
 }
 
@@ -33,10 +33,11 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-header);
+  padding: 1rem 2rem;
 }
 
 .header-logo {
-  width: 10%;
+  width: 20%;
   padding: 0.5rem;
 }
 
@@ -93,7 +94,7 @@ nav ol {
 
 .hero-title-btn{
   background-color: var(--color-header);
-  color: var(--color-tertiary);
+  color: var(--color-primary);
   padding: 1rem 2rem;
   border: none;
   border-radius: 5px;
@@ -104,15 +105,48 @@ nav ol {
 /* end of hero section style */
 
 /* style for about section */
-.about{
+.about-us{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem 0;
+  padding: 6rem 2rem;
+  gap: 1rem;
+  border: #307fff 2px solid;
+}
+
+.about-us-textbox{
+  width: 50%;
+  padding: 2rem;
+  border: #9485be 3px dotted;
+}
+
+.about-us-title{
+  color: var(--color-tertiary);
+  font-size: 4rem;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 6.3rem;
+}
+.about-us-text{
+  line-height: 1.6;
+  font-size: medium;
+  font-weight: 700;
+  color: var(--color-secondary);
+  padding: 2rem;
+}
+.about-us-link{
+  text-decoration: none;
+  background-color: var(--color-header);
+  color: var(--color-primary);
+  padding: 1rem 2rem;
+  border: ;
+
 }
 
 
-
-
+.about-us-imgbox{
+  padding-right: 2rem;
+  width: 50%;
+  
+  border: red 3px solid;
+}
 
 
