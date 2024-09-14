@@ -172,6 +172,23 @@ nav ol {
 }
 /* ending style for amenities section */
 
+/* style for rooms section */
+.room{
+  display: flex;
+  align-items: center;
+  border: blue 4px solid;
+}
+.room-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
 /* style for about section */
 .about-us{
   display: flex;
