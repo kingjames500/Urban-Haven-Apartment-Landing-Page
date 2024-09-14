@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -15,18 +15,20 @@ html {
 
   font-size: 62.5%;
 }
-:root{
+
+:root {
   --color-header: #9485be;
   --color-header-nav-list-link: #cab4ab;
-  --color-primary:white;
+  --color-primary: white;
   --color-secondary: #b1a199;
-  --color-tertiary:#001125;
+  --color-tertiary: #001125;
 }
 
 body {
   font-size: 1.6rem;
   font-family: "Josefin Sans", sans-serif;
 }
+
 
 /*style for header */
 .header {
@@ -43,7 +45,7 @@ body {
 }
 
 
-.header-nav{
+.header-nav {
   display: flex;
   gap: 1.5rem;
 }
@@ -54,6 +56,7 @@ nav ol {
   gap: 1.5rem;
   text-transform: capitalize;
 }
+
 .nav-list-link {
   color: var(--color-heeader-nav-list-link);
   padding-right: 2rem;
@@ -61,14 +64,15 @@ nav ol {
 }
 
 .nav-list-link:hover {
-  text-transform:.3s;
-  color:var(--color-primary) ;
+  text-transform: .3s;
+  color: var(--color-primary);
 }
+
 /* end of header style */
 
 /* style for hero section */
 
-.hero{
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,22 +82,21 @@ nav ol {
   background-size: cover;
 }
 
-.hero-title{
-  color: var(--color-primary
-  );
+.hero-title {
+  color: var(--color-primary);
   font-weight: 400;
   font-size: 4rem;
   text-align: center;
 }
 
-.hero-title-subtext{
+.hero-title-subtext {
   color: var(--color-primary);
   font-size: 2rem;
   text-align: center;
   padding: 2rem;
 }
 
-.hero-title-btn{
+.hero-title-btn {
   background-color: var(--color-header);
   color: var(--color-primary);
   padding: 1rem 2rem;
@@ -103,35 +106,39 @@ nav ol {
   cursor: pointer;
   text-transform: capitalize;
 }
+
 /* end of hero section style */
 
 /* style for amenities section */
-.amenities{
+.amenities {
   display: flex;
-  flex-direction:column;
- justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   gap: 1rem;
-  padding: 1.5rem 1rem;
+  padding: 3rem 1rem;
   background-color: var(--color-secondary);
 }
 
-.title{
+.title {
   padding: 1rem;
   text-align: center;
   text-transform: capitalize;
   font-size: x-large;
   color: var(--color-primary);
 }
-.title h3{
+
+.title h3 {
   font-size: 3rem;
 }
-.amenities-subtitle{
+
+.amenities-subtitle {
   color: var(--color-primary);
   font-size: 2rem;
   text-align: center;
   padding: 1rem;
 }
-.amenities-icons{
+
+.amenities-icons {
   /* border: green 4px solid; */
   display: flex;
   align-items: center;
@@ -141,14 +148,15 @@ nav ol {
   padding: 1rem;
 }
 
-.am-icon{
+.am-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: .1rem;
 }
-.am-icon p{
+
+.am-icon p {
   margin-top: 1.5rem;
   color: var(--color-primary);
   font-size: 2rem;
@@ -156,7 +164,7 @@ nav ol {
   font-weight: 1200;
 }
 
-.icons-image{
+.icons-image {
   background-color: var(--color-header);
   width: 15rem;
   border-radius: 50%;
@@ -165,101 +173,118 @@ nav ol {
   padding: 1rem;
 }
 
-.icons-image img{
+.icons-image img {
   width: 100%;
   height: 100%;
   display: block;
   object-fit: cover;
 }
+
 /* ending style for amenities section */
 
 /* style for rooms section */
-.rooms{
+
+.title{
+  padding: 1rem;
+  display: block;
+  background-color: var(--color-primary);
+}
+.amenities-title{
+color: var(--color-header);
+font-weight: 800;
+line-height: 1;
+text-align: center;
+margin-top: 2.5rem;
+font-size: 2rem;
+}
+
+.amenities-subtitle{
+  color: var(--color-header);
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+  font-size: 2rem;
+}
+.rooms {
+  padding-inline: 2rem;
   display: flex;
-  padding: 6rem 2rem;
   flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  margin-block: 2rem;
+  height: 20%;
 }
 
-.rooms-title  {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 4rem;
-  border: 3px solid var(--color-header);
-}
 
-.rooms-title h2{
-  text-align: center;
-}
-.room-card{
-  margin-top: 7rem;
+.room-card {
   width: 30rem;
-  background-color: var(--color-secondary);
-  border-radius: 5px;
+  background-color: var(--color-header);
+  border-radius: 9px;
   overflow: hidden;
-  
+
 }
-.room-image{
+
+.room-image {
   width: 100%;
-  height: 20rem;
+  height: 17rem;
 }
 
-.card-image-details{
-padding: 1.5rem;
+.card-image-details {
+  padding: 1rem;
 
 }
 
-.title-card{
+.title-card {
   text-transform: capitalize;
-  font-size: 3rem;
-  color: var(--color-primary);
-  text-align: center;
+  margin-bottom: 1.3rem;
+  font-size: 2.5rem;
 }
 
-.room-price-description{
-  line-height: 1.4;
-  margin-bottom: 1rem;
-  color: var(--color-primary);
+.room-price-description {
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
 
-.room-card-action{
+.room-card-action {
   display: flex;
   justify-content: space-between;
+
   align-items: center;
-  padding: 1rem;
 }
 
-.room-card-btn{
+.room-card-btn {
   border: none;
   outline: none;
-  background-color: var(--color-header);
-  color: var(--color-primary);
+  color: var(--color-tertiary);
+  background-color: var(--color-primary);
   text-transform: capitalize;
   padding: 1rem;
   font-weight: 700;
-  cursor: pointer;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-.room-price{
+.room-price {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.4rem;
   color: var(--color-primary);
 }
+
 /* responsiveness for suites area */
 
 
 
 
 /* style for about section */
-.about-us{
+.about-us {
   display: flex;
   padding: 6rem 2rem;
   gap: 2rem;
 }
 
-.about-us-textbox{
+.about-us-textbox {
   width: 50%;
-  padding: 0rem; 
+  padding: 0rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -267,7 +292,7 @@ padding: 1.5rem;
 
 }
 
-.about-us-title{
+.about-us-title {
   color: var(--color-tertiary);
   padding: 1rem;
   font-size: 4rem;
@@ -275,14 +300,16 @@ padding: 1.5rem;
   text-align: center;
   font-size: 6.3rem;
 }
-.about-us-text{
+
+.about-us-text {
   line-height: 1.9;
   font-size: medium;
   font-weight: 700;
   color: var(--color-secondary);
   padding: 0 2rem;
 }
-.about-us-btn{
+
+.about-us-btn {
   text-decoration: none;
   background-color: var(--color-header);
   color: var(--color-primary);
@@ -296,16 +323,14 @@ padding: 1.5rem;
 }
 
 
-.about-us-imgbox{
+.about-us-imgbox {
   width: 50%;
- 
+
 }
 
-.about-us-imgbox img{
+.about-us-imgbox img {
   width: 100%;
   height: 100%;
 }
+
 /* end of about section style */
-
-
-
