@@ -339,40 +339,97 @@ nav ol {
 
 /* contact us section style */
 
-.contact-us{
-  width: 90%;
-  margin: 5rem auto;
+
+
+.contact-us {
+    background-color: var(--color-secondary);
+    padding: 4rem;
+    border-radius: .8rem;
+    max-width: 90rem;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.contact-title{
-  margin: 4rem;
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 2rem;
 }
 
-.contact-us p{
-  margin: 2rem;
+.contact-info, .contact-form {
+    background-color: var(--color-primary);
+    padding: 2rem;
+    border-radius: .8rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
-.contact-box{
-  background-color: var(--color-primary);
-  display: flex;
-  gap: 2rem;
-  border: solid 2px greenyellow;
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.contact-left{
-  flex-basis: 50%;
-  padding: 4rem 2rem;
-  border: dotted 3px black;
+.contact-item, .social-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
-.contact-right{
-  flex-basis: 50%;
-  padding: 4rem;
-  background-color: var(--color-header);
-  color: var(--color-primary);
+label {
+    font-weight: bold;
+    margin-bottom: .5rem;
+    color: var(--color-tertiary);
 }
 
-.input-group{
-  display: flex;
-  justify-content: space-between;
+.contact-item p, .social-item a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
+
+.contact-item p a, .social-item a {
+    color: var(--color-header-nav-list-link);
+    text-decoration: none;
+}
+
+.contact-item p i, .social-item i {
+    color: var(--color-header-nav-list-link);
+    font-size: 1.2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 1rem;
+    border: 1px solid var(--color-tertiary);
+    border-radius: 5px;
+    background-color: var(--color-primary);
+}
+
+form button {
+    background-color: var(--color-header);
+    color: var(--color-primary);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--color-header-nav-list-link);
+}
+
