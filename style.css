@@ -223,7 +223,6 @@ nav ol {
   background-color: var(--color-header);
   border-radius: 9px;
   overflow: hidden;
-
 }
 
 .room-image {
@@ -432,4 +431,64 @@ form button {
 form button:hover {
     background-color: var(--color-header-nav-list-link);
 }
+/* end of contact us styling */
+
+/* footer styling */
+
+.site-footer {
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+    padding: 40px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h4, .footer-section h3 {
+    color: var(--color-header);
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    color: var(--color-primary);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;  
+}
+
+.footer-section ul li {
+    margin-bottom: 10px; 
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: var(--color-primary);
+    transition: color 0.3s;
+    font-size: 0.95em;
+}
+
+.footer-section ul li a:hover {
+    color: var(--color-header-nav-list-link);
+}
+
+/* end of footer styling */
 
