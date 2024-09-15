@@ -570,7 +570,7 @@ form button:hover {
 
 /* responsiveness for contact us section  for 28.125em*/
 
-@media screen and (max-width: 28.125em) {
+@media screen and (max-width: 33.125em) {
   .container {
     flex-direction: column;
     gap: 2rem;
@@ -588,6 +588,10 @@ form button:hover {
     width: 100%;
   }
 }
+
+/* another device width */
+
+
 
 /* end of contact us styling */
 
