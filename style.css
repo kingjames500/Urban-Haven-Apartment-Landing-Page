@@ -184,27 +184,29 @@ nav ol {
 
 /* style for rooms section */
 
-.title{
+.title {
   padding: 1rem;
   display: block;
   background-color: var(--color-primary);
 }
-.amenities-title{
-color: var(--color-header);
-font-weight: 800;
-line-height: 1;
-text-align: center;
-margin-top: 2.5rem;
-font-size: 2rem;
+
+.amenities-title {
+  color: var(--color-header);
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: 2rem;
 }
 
-.amenities-subtitle{
+.amenities-subtitle {
   color: var(--color-header);
   font-weight: 800;
   line-height: 1;
   text-align: center;
   font-size: 2rem;
 }
+
 .rooms {
   padding-inline: 2rem;
   display: flex;
@@ -334,3 +336,43 @@ font-size: 2rem;
 }
 
 /* end of about section style */
+
+/* contact us section style */
+
+.contact-us{
+  width: 90%;
+  margin: 5rem auto;
+}
+
+.contact-title{
+  margin: 4rem;
+}
+
+.contact-us p{
+  margin: 2rem;
+}
+
+.contact-box{
+  background-color: var(--color-primary);
+  display: flex;
+  gap: 2rem;
+  border: solid 2px greenyellow;
+}
+
+.contact-left{
+  flex-basis: 50%;
+  padding: 4rem 2rem;
+  border: dotted 3px black;
+}
+
+.contact-right{
+  flex-basis: 50%;
+  padding: 4rem;
+  background-color: var(--color-header);
+  color: var(--color-primary);
+}
+
+.input-group{
+  display: flex;
+  justify-content: space-between;
+}
