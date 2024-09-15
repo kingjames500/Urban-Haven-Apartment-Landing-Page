@@ -468,12 +468,13 @@ nav ol {
   }
 }
 
+/* end of responsiveness styling */
+
 /* end of about section style */
 
+
+
 /* contact us section style */
-
-
-
 .contact-us {
     background-color: var(--color-secondary);
     padding: 4rem;
@@ -565,6 +566,29 @@ form button {
 form button:hover {
     background-color: var(--color-header-nav-list-link);
 }
+
+
+/* responsiveness for contact us section  for 28.125em*/
+
+@media screen and (max-width: 28.125em) {
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-info, .contact-form {
+    width: 100%;
+  }
+
+  .contact-item, .social-item {
+    align-items: flex-start;
+  }
+
+  form input, form textarea {
+    width: 100%;
+  }
+}
+
 /* end of contact us styling */
 
 /* footer styling */
