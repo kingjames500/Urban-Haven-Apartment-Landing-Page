@@ -69,19 +69,19 @@ nav ol {
 }
 
 /* header responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 50em) {
   .header {
     flex-direction: column;
     gap: 1rem;
   }
 
   .header-logo {
-    width: 100%;
+    width: 70%;
     text-align: center;
   }
 
   .header-nav {
-    width: 100%;
+    width: 80%;
     justify-content: center;
   }
 
@@ -131,7 +131,31 @@ nav ol {
   text-transform: capitalize;
 }
 
+.hero-title-btn:hover {
+  background-color: var(--color-header-nav-list-link);
+}
+
+/* responsiveness for hero section */
+@media screen and (max-width: 50em) {
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-title-subtext {
+    font-size: 1.5rem;
+  }
+
+  .hero-title-btn {
+    font-size: 1.5rem;
+  }
+  
+}
+
+/* end of responsiveness hero section */
+
 /* end of hero section style */
+
+
 
 /* style for amenities section */
 .amenities {
@@ -204,6 +228,26 @@ nav ol {
   object-fit: cover;
 }
 
+/* responsiveness for amenities section */
+
+@media screen and (max-width: 50em) {
+  .amenities-icons {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .am-icon {
+    padding: 1rem;
+  }
+
+  .icons-image {
+    width: 10rem;
+  }
+
+  .am-icon p {
+    font-size: 1.5rem;
+  }
+}
 /* ending style for amenities section */
 
 /* style for rooms section */
