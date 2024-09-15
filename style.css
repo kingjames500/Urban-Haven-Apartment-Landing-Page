@@ -344,6 +344,37 @@ nav ol {
 
 /* responsiveness for rooms section */
 
+@media screen and (max-width: 43.0625em) {
+  .rooms {
+    gap: 3rem;
+  }
+
+  .room-card {
+    width: 25rem;
+  }
+
+  .room-card-action {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .title-card {
+    font-size: 2.2rem;
+  }
+
+  .room-price {
+    font-size: 2.2rem;
+  }
+
+  .room-price-description {
+    font-size: 1.7rem;
+  }
+
+  .room-card-btn {
+    font-size: 1.7rem;
+  }
+}
+
 @media screen and (max-width: 37.5em) {
   .rooms {
     gap: 2rem;
@@ -375,6 +406,36 @@ nav ol {
   }
 }
 
+@media screen and (max-width: 28.75em) {
+  .rooms {
+    gap: 1.5rem;
+  }
+
+  .room-card {
+    width: 18rem;
+  }
+
+  .room-card-action {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .title-card {
+    font-size: 1.8rem;
+  }
+
+  .room-price {
+    font-size: 1.8rem;
+  }
+
+  .room-price-description {
+    font-size: 1.3rem;
+  }
+
+  .room-card-btn {
+    font-size: 1.3rem;
+  }
+}
 /* responsiness end
  */
 /* style end for rooms section */
