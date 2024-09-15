@@ -651,6 +651,7 @@ form button:hover {
 .social-links{
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
     gap: 2rem;
     margin-top: 2rem;
@@ -664,6 +665,28 @@ form button:hover {
     font-size: 0.9em;
 }
 
+.footer-links{
+  color: var(--color-header);
+}
+.footer-links h4{
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+
+.footer-links ul{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.social-links-nav{
+  color: var(--color-header);
+  list-style: none;
+}
+
+.social-items-nav{
+  text-decoration: none;
+  color: var(--color-primary);
+}
 
 /* end of footer styling */
 
