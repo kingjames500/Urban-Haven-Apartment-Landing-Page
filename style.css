@@ -490,5 +490,22 @@ form button:hover {
     color: var(--color-header-nav-list-link);
 }
 
+.social-links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-bottom{
+    background-color: var(--color-header);
+    color: var(--color-primary);
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
 /* end of footer styling */
 
