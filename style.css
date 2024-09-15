@@ -692,5 +692,49 @@ form button:hover {
   color: var(--color-primary);
 }
 
+.social-items-nav:hover{
+  color: var(--color-header-nav-list-link);
+}
+
+/* responsiveness for footer section */
+
+@media screen and (max-width: 50em) {
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+  .social-links {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 34.375em) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .social-links {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .footer-section ul {
+    text-align: center;
+  }
+}
+
 /* end of footer styling */
 
