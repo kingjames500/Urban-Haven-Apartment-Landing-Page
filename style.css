@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 /* urban haven styling section */
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -728,6 +730,7 @@ form button:hover {
     padding: 10px;
     text-align: center;
     font-size: 0.9em;
+    text-transform: uppercase;
 }
 
 .footer-links{
