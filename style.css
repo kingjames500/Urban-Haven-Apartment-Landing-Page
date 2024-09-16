@@ -250,10 +250,30 @@ nav ol {
     font-size: 1.5rem;
   }
 }
+/* ressponsiveness for 1000px device width */
+@media screen and (max-width: 62.5em){
+  .amenities-icons {
+    gap: 1rem;
+  }
+
+  .am-icon {
+    padding: 1rem;
+  }
+
+  .icons-image {
+    width: 10rem;
+  }
+
+  .am-icon p {
+    font-size: 1.8rem;
+  }
+}
 
 /* end of responsiveness for amenities section */
 
 /* ending style for amenities section */
+
+
 
 /* style for rooms section */
 
@@ -345,6 +365,36 @@ nav ol {
 }
 
 /* responsiveness for rooms section */
+/* @media screen and (max-width: 62.5) {
+  .rooms {
+    gap: 4rem;
+  }
+
+  .room-card {
+    width: 30rem;
+  }
+
+  .room-card-action {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .title-card {
+    font-size: 2.5rem;
+  }
+
+  .room-price {
+    font-size: 2.5rem;
+  }
+
+  .room-price-description {
+    font-size: 1.8rem;
+  }
+
+  .room-card-btn {
+    font-size: 1.8rem;
+  }
+} */
 
 @media screen and (max-width: 43.0625em) {
   .rooms {
