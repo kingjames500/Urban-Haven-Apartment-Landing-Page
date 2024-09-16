@@ -366,6 +366,8 @@ nav ol {
   color: var(--color-primary);
 }
 
+
+
 /* responsiveness for rooms section */
 
 
@@ -488,7 +490,6 @@ nav ol {
 .about-us-title {
   color: var(--color-tertiary);
   padding: 1rem;
-  font-size: 4rem;
   text-transform: capitalize;
   text-align: center;
   font-size: 6.3rem;
