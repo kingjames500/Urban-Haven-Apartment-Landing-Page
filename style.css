@@ -233,7 +233,7 @@ nav ol {
 
 /* responsiveness for amenities section */
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 53.125em) {
   .amenities-icons {
     flex-wrap: wrap;
     gap: 2rem;
@@ -662,7 +662,29 @@ form button:hover {
 }
 
 
-/* responsiveness for contact us section  for 28.125em*/
+/* responsiveness for contact us section  for 33.125em*/
+
+@media screen and (max-width: 36.6875em) {
+  .container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-item,
+  .social-item {
+    align-items: flex-start;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 33.125em) {
   .container {

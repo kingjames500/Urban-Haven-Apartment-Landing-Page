@@ -32,7 +32,7 @@ To get started with the project, follow these steps:
     ```
 4. **Run the Development Server**:
     ```bash
-    npm start
+    npm run dev
     ```
 
 ## How to Contribute
